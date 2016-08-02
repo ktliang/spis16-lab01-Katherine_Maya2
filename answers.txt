@@ -1,3 +1,8 @@
 In state 0, there is a wall to the north, there may or may not be a wall to the east and south, and there is no wall to the west. In state 1, there is no wall to the north and south and there may or may not be a wall to the east and west.
 x means there definitely is no wall and * means there may or may not be a wall, it doesn't matter.
 0 *x** -> E 0
+
+0 *x** -> E 0   
+0 *E** -> N 1 
+1 **x* -> W 1   
+1 **W* -> X 0   
